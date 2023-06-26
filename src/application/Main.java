@@ -39,7 +39,6 @@ public class Main {
 			System.out.println("Unexpected error");
 		} 
 
-		System.out.println("Teste");
 		sc.close();
 	}
 
