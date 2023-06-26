@@ -49,7 +49,7 @@ public class Account {
 	}
 	
 	public void deposit(Double amount) {
-		balance =+ amount;
+		balance += amount;
 	}
 	
 	public void withdraw(Double amount) {
@@ -57,7 +57,7 @@ public class Account {
 			throw new DomainException("Withdraw error: Not enough balance");
 		}
 		
-		balance =- amount;
+		balance -= amount;
 	}
 
 }
